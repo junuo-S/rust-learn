@@ -10,4 +10,7 @@ cargo build // 编译cargo项目
 cargo build --release // release编译
 cargo check // 检查源代码是否可以通过编译，而非真的编译，所以速度比cargo build快很多
 cargo run // 编译加运行。如果已编译过则直接运行
+cargo update // 更改cargo.toml文件内的依赖包版本后并不会生效，会优先室友cargo.lock内的版本，此命令会重新生成cargo.lock
 ```
+## 二、概念
+* crate：rust的第三方包
