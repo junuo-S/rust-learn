@@ -14,3 +14,7 @@ cargo update // 更改cargo.toml文件内的依赖包版本后并不会生效，
 ```
 ## 二、概念
 * crate：rust的第三方包
+* parameter: 参数，指形参
+* argument: 参数，指实参
+* expression: 表达式
+* statement: 语句
